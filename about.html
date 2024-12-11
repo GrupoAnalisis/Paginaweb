@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/fevicon.png" type="">
+
+  <title> Carint </title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="header_top">
+        <div class="container-fluid ">
+          <div class="contact_nav">
+            <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              <span>
+                Location
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="index.html">
+              <span>
+
+              </span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""> </span>
+            </button>
+
+           
+
+
+
+
+
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+
+                <li class="nav-item active dropdown">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="service.html">Marco Teorico</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="service.html#funcionales">Requisitos Funcionales</a></li>
+                    <li><a href="service.html#no_funcionales">Requisitos no Funcionales</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="about.html">Analisis Estructurado</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="about.html#modelo_de_datos">Modelo de datos</a></li>
+                    <li><a href="about.html#casos_de_uso">Casos de uso</a></li>
+                    <li><a href="about.html#diagrama_ambiental">Diagrama ambiental</a></li>
+                    <li><a href="about.html#implementacion_y_mantenimiento">Implementacion y mantenimiento</a></li>
+                    <li><a href="about.html#modelo_de_datos">Modelo de datos</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="contact.html">Orientado a Objetos</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="contact.html#introduccion">Introduccion</a></li>
+                    <li><a href="contact.html#importancia">Importancia</a></li>
+                    <li><a href="contact.html#implementacion">Implementacion</a></li>
+                    <li id="clases" class="dropdown-item"><a href="contact.html#paciente">
+                      Clases
+                      <ul class="sub-dropdown-menu">
+                        <li><a href="contact.html#paciente">Paciente</a></li>
+                        <li><a href="contact.html#cita">Cita</a></li>
+                        <li><a href="contact.html#medico">Medico</a></li>
+                        <li><a href="contact.html#tratamiento">Tratamiento</a></li>
+                        <li><a href="contact.html#especialidad">Especialidad</a></li>
+                        <li><a href="contact.html#usuario">Usuario</a></li>
+                        <li><a href="contact.html#odontograma">Odontograma</a></li>
+                      </ul>
+                    </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="http://127.0.0.1:8000/login">
+                    <i class="fa fa-user" aria-hidden="true"></i> Login</a>
+                </li>
+              </ul>
+            </div>
+            
+
+
+
+
+
+
+
+
+
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2 id="modelo_de_datos">
+                Modelo de <span>Datos</span>
+              </h2>
+            </div>
+            <p>
+              El modelo de datos es fundamental para el funcionamiento del sistema de gestión de la clínica dental.
+              Este modelo define las entidades principales, como pacientes, citas, tratamientos y facturas, así
+              como las relaciones entre ellas. Por ejemplo, un paciente puede tener múltiples citas, y cada cita
+              puede estar asociada a uno o más tratamientos.
+            </p>
+            <p>
+              Utilizando un enfoque entidad-relación, podemos visualizar cómo se relacionan los datos y cómo se
+              estructuran. Esto permite una gestión eficiente de la información y facilita la generación de informes
+              y estadísticas sobre la actividad de la clínica.
+            </p>
+            <a href="">
+              Leer más
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="diag/bd.jpg" alt="Modelo de Datos">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2 id="casos_de_uso">
+                Diagrama de <span>Flujo y Casos de Uso</span>
+              </h2>
+            </div>
+            <p>
+              El diagrama de flujo describe el proceso de gestión de citas en la clínica dental. Comienza con la
+              solicitud de una cita por parte del paciente y sigue hasta la confirmación de la cita, incluyendo
+              todas las etapas intermedias, como la verificación de disponibilidad y el registro de datos del paciente.
+            </p>
+            <p>
+              Los casos de uso detallan las interacciones entre los actores (pacientes y personal de la clínica) y
+              el sistema, mostrando cómo se llevan a cabo las funciones del sistema, como la gestión de citas, el
+              registro de pacientes y la generación de informes. Estos diagramas son cruciales para entender los
+              requerimientos del sistema y asegurar que todas las funciones necesarias estén incluidas en el
+              desarrollo.
+            </p>
+            <a href="">
+              Leer más
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="diag/Sin título.png" alt="Diagrama de Flujo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2 id="diagrama_ambiental">
+                Análisis del <span>Diagrama Ambiental</span>
+              </h2>
+            </div>
+            <p>
+              El diagrama ambiental ilustra la interacción del sistema de gestión de la clínica dental con su
+              entorno externo. Incluye actores externos como pacientes, proveedores de servicios y aseguradoras.
+              Este análisis es esencial para comprender cómo el sistema se integra en el flujo de trabajo
+              diario de la clínica.
+            </p>
+            <p>
+              A través de este diagrama, se identifican los puntos de contacto entre el sistema y los usuarios,
+              lo que ayuda a definir los requisitos del sistema y a garantizar que todas las interacciones se
+              manejen de manera efectiva. Esto incluye aspectos como la comunicación con los pacientes y la
+              gestión de la información relacionada con los tratamientos y pagos.
+            </p>
+            <a href="">
+              Leer más
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="diag/diagrama1.svg" alt="Diagrama Ambiental">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2 id="implementacion_y_mantenimiento">
+                Implementación y <span>Mantenimiento</span>
+              </h2>
+            </div>
+            <p>
+              La implementación del sistema de gestión de la clínica dental requiere una planificación cuidadosa
+              para garantizar que todos los procesos se integren sin problemas. Esto incluye la capacitación del
+              personal, la configuración del sistema y la migración de datos desde sistemas anteriores, si los
+              hubiera.
+            </p>
+            <p>
+              El mantenimiento continuo del sistema es crucial para asegurar su funcionamiento óptimo. Esto
+              implica actualizaciones regulares, soporte técnico y una evaluación continua de los procesos para
+              identificar áreas de mejora. Un enfoque proactivo en el mantenimiento ayudará a maximizar la
+              eficiencia y la satisfacción del paciente.
+            </p>
+            <a href="">
+              Leer más
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="diag/ciclo-de-vida-de-un-sistema-de-informacion-1.jpg" alt="Implementación y Mantenimiento">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- info section -->
+
+  <section class="info_section layout_padding2">
+    <div class="container">
+
+      <div class="col-md-12  info_col">
+        <div class="info_contact">
+          <h3>
+            Sistema <br>
+            Gestion de clinica dental
+          </h3>
+
+          </form>
+        </div>
+      </div>
+
+  </section>
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayYear"></span> UMSA
+        <a href="https://html.design/">Blogs</a>
+      </p>
+    </div>
+    <!-- footer section -->
+
+    <!-- jQery -->
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <!-- popper js -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+      </script>
+    <!-- bootstrap js -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <!-- owl slider -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+    </script>
+    <!-- custom js -->
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
+    </script>
+    <!-- End Google Map -->
+
+</body>
+
+</html>
